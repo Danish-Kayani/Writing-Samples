@@ -1,0 +1,23 @@
+{
+  "_comments": {
+    "description": "Samsung Notes backup and restore configuration settings.",
+    "fields": {
+      "autoBackup": "Enables automatic backups (true or false).",
+      "backupFrequency": "Backup frequency: daily, weekly, or monthly.",
+      "backupDestination": "Backup storage location (SamsungCloud, GoogleDrive, local).",
+      "includeNoteTypes": "Types of notes included in backups (text, images, audio).",
+      "restoreOptions": {
+        "restoreFrom": "Backup to restore from: latest or specific date.",
+        "conflictResolution": "Conflict handling during restore: merge, overwrite, skip."
+      }
+    }
+  },
+  "autoBackup": true,
+  "backupFrequency": "daily",
+  "backupDestination": "SamsungCloud",
+  "includeNoteTypes": ["text", "images"],
+  "restoreOptions": {
+    "restoreFrom": "latest",
+    "conflictResolution": "merge"
+  }
+}
