@@ -19,7 +19,7 @@ Whether you're a recruiter, collaborator, or fellow writer, feel free to explore
 
 ## 📎 Quick Links
 
-[![View Portfolio Wiki](https://github.com/Danish-Kayani/Writing-Samples/wiki)
+[![View Portfolio Wiki](https://img.shields.io/badge/View-Portfolio%20Wiki-blue)](https://github.com/Danish-Kayani/Writing-Samples/wiki)
 
 ---
 
