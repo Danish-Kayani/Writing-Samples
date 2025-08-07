@@ -21,6 +21,18 @@ JSON's response should be:
 }
 ```
 And here’s the same data in XML:
+```
 <book>
- <title></title>
-
+    <title>The Great Gatsby</title>
+    <author>F. Scott Fitzgerald</author>
+    <year>1925</year>
+</book>
+```
+## JSON vs XML: Key Differences
+```
+|Feature              |JSON                               |XML                                                 |
+|---------------------|-----------------------------------|----------------------------------------------------|
+|Format               |Lightweight, uses {} and []        | Tag based with <tag> structure                     |
+| Readability         | Easier for humans to read         | More verbose, extra closing tags                   |
+| Data Types          | Supports numbers, booleans, null  | Everything is text unless parsed                   |
+| Use in APIs         | Most modern APIs prefer JSON      | Older APIs or enterprise systems may still use XML |
